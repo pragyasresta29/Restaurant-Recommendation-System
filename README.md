@@ -8,4 +8,4 @@ The recommendation model is based on the similarity score which is calculated us
 ## Working
 In the getRecommendations.py file we first load the dataset(reviews,restaurants) into dictionary named prefs. Prefs can be considered as a critics for generating recommendations for users. To get recommendations from users we use the getRecommendation function by passing the user id of the user for which we wish to get Recommendation. The function will return a list of recommendations of restaurants with their predicted rating by the user for that restaurant. 
 
-Note: The model will not return recommendation if there is not enough reviews for users. A
+Note: The model will not return recommendation if there is not enough reviews for users. 
